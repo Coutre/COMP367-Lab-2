@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Coutre/COMP367-Lab-2'
+                git branch: 'main', url: 'https://github.com/Coutre/COMP367-Lab-2.git'
             }
         }
         stage('Build') {
