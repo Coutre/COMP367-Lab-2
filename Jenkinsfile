@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/yourrepo.git'
+                git 'https://github.com/Coutre/COMP367-Lab-2'
             }
         }
         stage('Build') {
